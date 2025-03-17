@@ -352,3 +352,4 @@ read -t 10 -p "Reset Miner? [y/n]" yn
 	    /root/script/resetminer.sh
         ;;
     esac
+reboot now
