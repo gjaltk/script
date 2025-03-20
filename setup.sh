@@ -4,7 +4,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-set +x
+set +x1
 function black(){
     echo -e "\x1B[30m $1 \x1B[0m"
     if [ ! -z "${2}" ]; then
