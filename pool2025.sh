@@ -352,4 +352,4 @@ read -t 10 -p "Reset Miner? [y/n]" yn
 	    /root/script/resetminer.sh
         ;;
     esac
-reboot now
+    sudo nano /root/services/miner-service
